@@ -1,6 +1,6 @@
 
 
-class Persona(val nombre: String, var edad: Int) {
+open class Persona(val nombre: String, var edad: Int) {
 
     override fun toString(): String {
         return "Nombre: $nombre, Edad: $edad"

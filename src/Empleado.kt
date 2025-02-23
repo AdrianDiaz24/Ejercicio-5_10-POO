@@ -16,4 +16,8 @@ class Empleado(nombre: String, edad: Int, var salarioBase: Double, var porcentaj
         return super.toString() + "Salario: ${calcularSalario()}"
     }
 
+    fun trabajar(){
+        println("$nombre esta trabajando en la empresa")
+    }
+
 }
